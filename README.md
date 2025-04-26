@@ -14,7 +14,6 @@ Table clients {
   name char(50) [not null] 
   surname char(50) [not null] 
   middle_name bpchar 
-  gov_identifier bpchar [not null] 
   status bpchar [not null]  // ordinary, premium, vip, employee
   email char(50) [not null] 
   phone_number char(50) [not null] 
@@ -87,7 +86,6 @@ Table employees {
   name char(50) [not null]
   surname char(50) [not null]
   middle_name char(50) 
-  gov_identifier bpchar [not null]
   email char(50) [not null]
   phone_number char(50) [not null]
   adress bpchar [not null]
